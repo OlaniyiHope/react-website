@@ -1,0 +1,89 @@
+
+.row{
+    display: flex;
+}
+.mytext{
+    text-align: center;
+margin-top: 0;
+}
+.mytext h2{
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: 500;
+   
+}
+.mytext h3{
+    font-size: 25px;
+    font-weight: 500;
+  
+}
+@media screen and (max-width: 600px) {
+    .tech-icon {
+   flex-direction: column;
+    }
+  }
+.mytext h5{
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+  .tech-icon{
+    display: flex;
+  }
+  .tech-icon .tech-icons{
+    width: 100%;
+    font-size: 100px;
+  }
+  .tech-icons{
+    font-size: 5em !important;
+    margin: 15px !important;
+    padding: 10px !important;
+    opacity: 0.93 !important;
+    border: 1.7px solid rgba(213, 193, 190, 0.637) !important;
+  }
+  .social-icon {
+    margin: 2rem;
+    padding: 1rem;
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  .social-icon:hover {
+    background: var(--light-blue);
+  }
+  /* .tech > * {
+    flex: 1;
+    justify-self: center;
+  } */
+  
+  .tech h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  
+  .tech-box .tech-links a {
+    font-size: 1.2rem;
+  }
+  
+  .tech-links {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tech-contact p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  

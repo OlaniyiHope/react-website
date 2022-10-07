@@ -1,0 +1,86 @@
+
+.mytext{
+  text-align: center;
+
+}
+.mytext h2{
+  font-size: 25px;
+  font-weight: 500;
+ 
+}
+.mytext h3{
+  font-size: 25px;
+  font-weight: 500;
+
+}.features{
+  margin-bottom: 0;
+}
+
+.hope {
+  background: url(../../assets/subscribe-bg.png);
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section#subscribe {
+  background: url(../../assets/subscribe-bg.png);
+  text-align: center;
+  color: #fff;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.subscribe h2 {
+  font-size: 3rem;
+  font-weight: 200;
+  line-height: 1.4;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+  padding-bottom: 1rem;
+}
+.title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.title h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.4;
+  text-transform: uppercase;
+
+  margin: 1.5rem 0;
+}
+
+.title p{
+  width: 50%;
+  font-size: 15px;
+  line-height: 1.5;
+  min-width: 40rem;
+  margin: 0 auto;
+  margin-bottom: 0;
+  
+}
+
+.features-content {
+  display: flex;
+  justify-content: center;
+  /* padding: 3rem 0; */
+}
+
+.features-left {
+  flex: 1;
+  text-align: center;
+}
+
+.features-right {
+  flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .features-content {
+    flex-direction: column;
+  }
+}
