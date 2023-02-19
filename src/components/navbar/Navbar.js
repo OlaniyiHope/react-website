@@ -69,7 +69,7 @@ const Navbar = () => {
             </a>
           </li> */}
           <li className="bars-btn text-color bold" >
-            <Link to='/blog' className="text-color bold"><Button text={"Blog"} btnClass={"btn-dark text-color bold" }  className="text-color bold"/></Link>
+            <Link to='/lay' className="text-color bold"><Button text={"Blog"} btnClass={"btn-dark text-color bold" }  className="text-color bold"/></Link>
           </li>
         </ul>
       </menu>

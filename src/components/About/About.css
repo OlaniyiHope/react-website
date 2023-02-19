@@ -32,12 +32,12 @@
     width: 50%;
     font-size: 15px;
     line-height: 1.5;
-    min-width: 40rem;
     margin: 0 auto;
     margin-bottom: 0;
+    text-align: justify;
     
   }
-  
+ 
   .features-content {
     display: flex;
     justify-content: center;
@@ -58,7 +58,8 @@
       flex-direction: column;
     }
     .title p{
-      width: 50%;
+      width: 40%;
+      display: block;
     }
   }
   
