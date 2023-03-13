@@ -36,6 +36,7 @@ function Projects() {
                 isBlog={false}
                 title="Bidding and gaming website"
                 description="A platform where people play games and earn money, and also do biddings for electronic items "
+                link="https://kobobid.com"
               />
             </Col>
             <Col md={4} className="project-card text-color bold">
@@ -55,6 +56,7 @@ function Projects() {
                 title="Real estate website"
                 description="Hybrid homes and properties is a real estate website that helps people to look for
               a place to stay and also realtors can upload properties"
+                link="https://hybridhomesandproperties.com.ng"
               />
             </Col>
 
@@ -65,6 +67,7 @@ function Projects() {
                 title="Transport booking Web App"
                 description="A transport App and Website, where people can travel, book tickets and trips can be managed by the admin. etc
               "
+                link="https://themiraclemotorsng.com"
               />
             </Col>
 
