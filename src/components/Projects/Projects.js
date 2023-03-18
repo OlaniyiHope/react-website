@@ -5,6 +5,7 @@ import "./Project.css";
 import what from "../../assets/what.jpeg";
 import logow from "../../assets/logow.png";
 import lova from "../../assets/kobo.jpg";
+import hlhs from "../../assets/yep.png";
 import life2 from "../../assets/life2.png";
 import hybrid from "../../assets/hy.png";
 import cat from "../../assets/cat.jpg";
@@ -37,6 +38,15 @@ function Projects() {
                 title="Bidding and gaming website"
                 description="A platform where people play games and earn money, and also do biddings for electronic items "
                 link="https://kobobid.com"
+              />
+            </Col>
+            <Col md={4} className="project-card text-color bold">
+              <ProjectCard
+                imgPath={hlhs}
+                isBlog={false}
+                title="School managment solution"
+                description="A school management solution where students can check their results, teachers can upload the student result, attendance, subects and their teacher etc."
+                link=""
               />
             </Col>
             <Col md={4} className="project-card text-color bold">
