@@ -46,7 +46,7 @@ function Projects() {
                 isBlog={false}
                 title="School managment solution"
                 description="A school management solution where students can check their results, teachers can upload the student result, attendance, subects and their teacher etc."
-                link=""
+                link="https://hlhs.netlify.app"
               />
             </Col>
             <Col md={4} className="project-card text-color bold">
